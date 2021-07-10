@@ -1,6 +1,5 @@
 package com.example.myapplication
 
-import android.content.Context
 import org.junit.Test
 
 class MainActivityTest {

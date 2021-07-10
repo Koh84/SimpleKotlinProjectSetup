@@ -1,8 +1,8 @@
 package com.example.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 /**
  * The MainActivity class.
  */
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var kelvinMath = KelvinMath()
         var result = kelvinMath.addition(1, 2)
-        Log.d(TAG, "kelvin test result = ${result.toString()}")
+        Log.d(TAG, "kelvin test result = $result")
     }
 }
 
@@ -31,8 +31,8 @@ class KelvinMath {
     /**
      * Perform addition of two integer numbers.
      */
-    fun addition(a: Int, b: Int): Int{
-        var c = a+b
+    fun addition(a: Int, b: Int): Int {
+        var c = a + b
         return c
     }
 }
