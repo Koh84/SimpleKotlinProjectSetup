@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
 }
 
+apply plugin: 'org.jetbrains.dokka'
 apply from : '../ktlint.gradle'
 
 android {
